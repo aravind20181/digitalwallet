@@ -1,0 +1,7 @@
+package com.digitalwallet.digitalwallet.exception;
+
+public class InvalidCredentialsException extends RuntimeException{
+    public InvalidCredentialsException(){
+        super("Invalid email or password");
+    }
+}
